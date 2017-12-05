@@ -13,7 +13,7 @@ public class Monster extends Character {
         super(MONSTER_HEALTH, (int) (Math.random() * (MAX_MONSTER_STRENGTH - MIN_MONSTER_STRENGTH) + MIN_MONSTER_STRENGTH), MONSTER_DEFENSE, MONSTER_ATTACK);
     }
 
-    public Protagonist(int healthP, int strengthP, int defenseP, double attackP){
+    public Monster(int healthP, int strengthP, int defenseP, double attackP){
         super(healthP, strengthP, defenseP, attackP);
     }
 }
