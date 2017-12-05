@@ -11,9 +11,13 @@ public class Protagonist extends Character {
      *    @param name the name the user wants to give the Protagonist
      */
 
-
     public Protagonist(String name){
         super(PROTAGONIST_HEALTH, PROTAGONIST_STRENGTH, PROTAGONIST_DEFENSE, PROTAGONIST_ATTACK);
+        this.name = name;
+    }
+
+    public Protagonist(String name, int healthP, int strengthP, int defenseP, double attackP){
+        super(healthP, strengthP, defenseP, attackP);
         this.name = name;
     }
 
