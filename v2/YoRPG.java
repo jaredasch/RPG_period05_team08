@@ -65,6 +65,7 @@ public class YoRPG
 	    difficulty = Integer.parseInt( in.readLine() );
     } catch ( IOException e ) { }
 
+
     s = "Intrepid protagonist, what doth thy call thyself? (State your name): ";
     System.out.print( s );
 
@@ -72,8 +73,25 @@ public class YoRPG
 	    name = in.readLine();
     } catch ( IOException e ) { }
 
-    //instantiate the player's character
-    pat = new Protagonist( name );
+
+    s = "\nChoose your class: \n";
+    s += "\t1: Mage\n";
+    s += "\t2: Assassin\n";
+    s += "\t3: Archer\n";
+    s += "Selection: ";
+    System.out.print(s);
+
+    try {
+      int choice = Integer.parseInt( in.readLine() );
+      if(choice == 1)
+        pat = new Mage(name);
+      else if (choice == 2)
+        pat = new Assassin(name);
+      else if (choice == 3)
+        pat = new Archer(name);
+      else
+        pat = new Protagonist( name );
+    } catch ( IOException e ) { }
 
   }//end newGame()
 
