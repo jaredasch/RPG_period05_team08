@@ -7,4 +7,8 @@ public class Assassin extends Protagonist {
 	public Assassin(String name){
 		super(name, ASSASSIN_HEALTH, ASSASSIN_STRENGTH, ASSASSIN_DEFENSE, ASSASSIN_ATTACK);
 	}
+
+	public String toString(){
+        return  "[Assassin " + name + ", " + "Health: " + health + "]";
+    }
 }

@@ -8,4 +8,8 @@ public class Ogre extends Monster {
 	public Ogre(){
 		super(OGRE_HEALTH, (int) (Math.random() * (OGRE_MAX_STRENGTH - OGRE_MIN_STRENGTH) + OGRE_MIN_STRENGTH), OGRE_DEFENSE, OGRE_ATTACK);
 	}
+
+	public String toString(){
+		return  "[Ogre,  Health: " + health + "]";
+	}
 }

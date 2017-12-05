@@ -7,4 +7,8 @@ public class Archer extends Protagonist {
 	public Archer(String name){
 		super(name, ARCHER_HEALTH, ARCHER_STRENGTH, ARCHER_DEFENSE, ARCHER_ATTACK);
 	}
+
+	public String toString(){
+        return  "[Archer " + name + ", " + "Health: " + health + "]";
+    }
 }

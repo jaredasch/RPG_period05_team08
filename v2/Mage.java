@@ -7,4 +7,8 @@ public class Mage extends Protagonist {
 	public Mage(String name){
 		super(name, MAGE_HEALTH, MAGE_STRENGTH, MAGE_DEFENSE, MAGE_ATTACK);
 	}
+
+	public String toString(){
+        return  "[Mage " + name + ", " + "Health: " + health + "]";
+    }
 }

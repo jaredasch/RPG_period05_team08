@@ -29,13 +29,9 @@ public class Protagonist extends Character {
         return name;
     }
 
-
     public String toString(){
-        String result = " ";
-        result	+="Name :" + name + ", " + "PROTAGONIST HEALTH :" +     
-        PROTAGONIST_HEALTH + ", " + "PROTAGONIST STRENGTH :" + PROTAGONIST_STRENGTH + ", " + "PROTAGONIST DEFENSE:" + PROTAGONIST_DEFENSE +
-        ", "+"PROTAGONIST_ATTACK:"+ PROTAGONIST_ATTACK;
-        return result;}
+        return  "[Protagonist " + name + ", " + "Health: " + health + "]";
+    }
 
     public static void main(String[] args) {
           Protagonist nemo = new Protagonist("nemo");

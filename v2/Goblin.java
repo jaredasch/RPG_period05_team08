@@ -8,4 +8,8 @@ public class Goblin extends Monster {
 	public Goblin(){
 		super(GOBLIN_HEALTH, (int) (Math.random() * (GOBLIN_MAX_STRENGTH - GOBLIN_MIN_STRENGTH) + GOBLIN_MIN_STRENGTH), GOBLIN_DEFENSE, GOBLIN_ATTACK);
 	}
+
+	public String toString(){
+		return  "[Goblin,  Health: " + health + "]";
+	}
 }
