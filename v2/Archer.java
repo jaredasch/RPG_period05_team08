@@ -9,6 +9,6 @@ public class Archer extends Protagonist {
 	}
 
 	public String toString(){
-        return  "[Archer " + name + ", " + "Health: " + health + "]";
+        return  "[Archer " + getName() + ", " + "Health: " + health + "]";
     }
 }
