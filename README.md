@@ -3,15 +3,16 @@
 ## Character class
 
 Characters have fields:
- *health
- *strength
- *defense
- *attack
+ health
+ strength
+ defense
+ attack
 
 Capabilities include:
- *attacking:
-    *specialized
-    *normal
+
+  attacking:
+    *normal* : attack using regular strength
+    *specialized* : attack using increased strength
     
 ## Subclasses of Character:
 
@@ -39,7 +40,7 @@ Capabilities include:
  #### Ogre class
       Ogre's have average strenth but very high defense and attack.
  #### Orc class
-      Orc's have the highest health and strength but lack defense.
+      Orc's have the highest health and strength but are lacking in defense.
      
   
   
