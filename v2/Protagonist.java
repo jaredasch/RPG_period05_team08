@@ -6,8 +6,8 @@ public class Protagonist extends Character {
 
     private String name;
 
-    /** 
-     *    Calls the constructor of the Character superclass using constants specified in the class; 
+    /**
+     *    Calls the constructor of the Character superclass using constants specified in the class;
      *    @param name the name the user wants to give the Protagonist
      */
 
@@ -31,11 +31,5 @@ public class Protagonist extends Character {
 
     public String toString(){
         return  "[Protagonist " + name + ", " + "Health: " + health + "]";
-    }
-
-    public static void main(String[] args) {
-          Protagonist nemo = new Protagonist("nemo");
-          System.out.println(nemo);
- 
     }
 }
