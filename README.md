@@ -11,8 +11,8 @@ Characters have fields:
 Capabilities include:
 
   attacking:
-    normal : attack using regular strength
-    specialized : attack using increased strength
+  1. normal : attack using regular strength
+  2. specialized : attack using increased strength
     
 ## Subclasses of Character:
 
