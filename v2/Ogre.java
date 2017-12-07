@@ -10,6 +10,6 @@ public class Ogre extends Monster {
 	}
 
 	public String toString(){
-		return  "[Ogre,  Health: " + health + "]";
+		return  "{ Ogre " + super.toString() + " }"; 
 	}
 }

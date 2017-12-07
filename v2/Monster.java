@@ -16,4 +16,8 @@ public class Monster extends Character {
     public Monster(int healthP, int strengthP, int defenseP, double attackP){
         super(healthP, strengthP, defenseP, attackP);
     }
+
+    public String toString(){
+        return  "[Monster with Health: " + health + "]";
+    }
 }

@@ -9,6 +9,6 @@ public class Assassin extends Protagonist {
 	}
 
 	public String toString(){
-        return  "[Assassin " + getName() + ", " + "Health: " + health + "]";
+        return "{ Assassin " + super.toString() + " }";
     }
 }

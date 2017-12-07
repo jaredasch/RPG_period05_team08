@@ -9,6 +9,6 @@ public class Mage extends Protagonist {
 	}
 
 	public String toString(){
-        return  "[Mage " + getName() + ", " + "Health: " + health + "]";
+        return "{ Mage " + super.toString() + " }";
     }
 }

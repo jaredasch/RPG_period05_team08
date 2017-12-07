@@ -10,6 +10,6 @@ public class Goblin extends Monster {
 	}
 
 	public String toString(){
-		return  "[Goblin,  Health: " + health + "]";
+		return  "{ Goblin " + super.toString() + " }"; 
 	}
 }
