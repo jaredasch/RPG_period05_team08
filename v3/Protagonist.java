@@ -4,6 +4,8 @@ public abstract class Protagonist extends Character {
     private static final int PROTAGONIST_DEFENSE = 40;
     private static final double PROTAGONIST_ATTACK = 0.4;
 
+    // "error: Protagonist is not abstract and does not override abstract method toString() in Protagonist" when the class is not abstract
+
     private String name;
 
     /**
